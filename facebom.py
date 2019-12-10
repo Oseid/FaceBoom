@@ -24,10 +24,10 @@ os.system("cls||clear")
 wi="\033[1;37m" #>>White#
 rd="\033[1;31m" #>Red   #
 gr="\033[1;32m" #>Green #
-yl="\033[1;33m" #>Yallow#
+yl="\033[1;33m" #>Yellow#
 #########################
 
-################## check internet Connection ######
+################## Check Internet Connection ######
 def cnet():                                       #
    try:                                           #
       ip = socket.gethostbyname("www.google.com") #
@@ -68,7 +68,7 @@ def ID(url):
         idis = idre.findall(con)
         print(gr+"\n["+wi+"*"+gr+"] Target Profile"+wi+" ID: "+yl+idis[0]+wi)
     except IndexError:
-        print(rd+"\n["+yl+"!"+rd+"] Error:"+yl+" Please Check Your Victem Profile URL "+rd+"!!!"+wi)
+        print(rd+"\n["+yl+"!"+rd+"] Error:"+yl+" Please Check Your Victim Profile URL "+rd+"!!!"+wi)
         exit(1)
 
 #### Facebom Brute Force Function ####
