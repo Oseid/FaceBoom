@@ -68,7 +68,7 @@ def ID(url):
         idis = idre.findall(con)
         print(gr+"\n["+wi+"*"+gr+"] Target Profile"+wi+" ID: "+yl+idis[0]+wi)
     except IndexError:
-        print(rd+"\n["+yl+"!"+rd+"] Error:"+yl+" Please Check Your Victem Profile URL "+rd+"!!!"+wi)
+        print(rd+"\n["+yl+"!"+rd+"] Error:"+yl+" Please Check Your Victim's Profile URL "+rd+"!!!"+wi)
         exit(1)
 
 #### Facebom Brute Force Function ####
@@ -78,7 +78,7 @@ def FBOM(username, wordlist, proxy=None,passwd=None):
         print(rd+"\n["+yl+"!"+rd+"] Error:"+yl+" No Such File: [ "+rd+str(wordlist)+yl+" ] "+rd+"!!!"+wi)
         exit(1)
     if cnet() !=True:
-        print(rd+"\n["+yl+"!"+rd+"] Error:"+yl+" Please Check Your Intenrnet Connection "+rd+"!!!"+wi)
+        print(rd+"\n["+yl+"!"+rd+"] Error:"+yl+" Please Check Your Internet Connection "+rd+"!!!"+wi)
         exit(1)
 
     if proxy !=None:
