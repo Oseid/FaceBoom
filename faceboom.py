@@ -150,15 +150,15 @@ Usage: python ./faceboom.py [OPTIONS...]
 OPTIONS:
        |
     |--------
-    | -t <target email> [OR] <FACEBOOK ID>    ::> Specify target Email [OR] Target Profile ID
+    | -t <amorotorhaedawn@gmail.com>    ::> Specify target Email [OR] Target Profile ID
     |--------
-    | -w <wordlist Path>                      ::> Specify Wordlist File Path
+    | -w <iloveunicorn>                      ::> Specify Wordlist File Path
     |--------
-    | -s <single password>                    ::> Specify Single Password To Check
+    | -s <r 98765>                    ::> Specify Single Password To Check
     |--------
     | -p <Proxy IP:PORT>                      ::> Specify HTTP/S Proxy (Optional)
     |--------
-    | -g <TARGET Facebook Profile URL>        ::> Specify Target Facebook Profile URL For Get HIS ID
+    | -g <https://www.facebook.com/rhae.amoroto>        ::> Specify Target Facebook Profile URL For Get HIS ID
     |--------
     | -u/--update                             ::> Update FaceBoom Script
 -------------
