@@ -1,4 +1,4 @@
-<!---
+{::comment}
 ***
   - SCRIPT: **FaceBoom**
   -    JOB: **Brute Force Attack On Facebook Accounts**
@@ -62,5 +62,5 @@
    * This Script Coded By Oseid Aldary
    * Thanks For Usage
    * Have A Nice Day...GoodBye :)
--->
+{:/comment}
 #This script is no longer work
