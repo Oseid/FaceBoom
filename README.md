@@ -1,1 +1,1 @@
-# This script is no longer work
+# This script no longer works
